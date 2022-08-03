@@ -1,5 +1,5 @@
 # synthesize_mobility_chains
-The repository contains code that analyze long mobility chaings repositories (such as the location traces of an app user for several weeks), and syntesize location traces using short-term memory networks (LSTMs), Markov Chains (MC), and variable-order Markov models
+The repository contains code that analyze long mobility chains repositories (such as the location traces of an app user for several weeks) and synthesizes location traces using short-term memory networks (LSTMs), Markov Chains (MC), and variable-order Markov models
 (VMMs).
 
 ## Chains_generation
