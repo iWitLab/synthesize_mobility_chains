@@ -1,5 +1,5 @@
-# mobility_chains
-The repository contains code to analyze mobility traces to create movement chains
+# synthesize_mobility_chains
+The repository contains code to analyze mobility traces to syntesize location traces
 
 ## Chains_generation
 Chains_generation.py - Pyspark script that generates user transactions from the raw data. The script accepts as input a hive table lat_lon_original_comp_propdelay, and produces the following:
