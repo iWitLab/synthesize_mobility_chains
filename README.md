@@ -1,5 +1,6 @@
 # synthesize_mobility_chains
-The repository contains code to analyze mobility traces to syntesize location traces
+The repository contains code that analyze long mobility chaings repositories (such as the location traces of an app user for several weeks), and syntesize location traces using short-term memory networks (LSTMs), Markov Chains (MC), and variable-order Markov models
+(VMMs).
 
 ## Chains_generation
 Chains_generation.py - Pyspark script that generates user transactions from the raw data. The script accepts as input a hive table lat_lon_original_comp_propdelay, and produces the following:
